@@ -20,6 +20,11 @@ export default new Router({
       path:'/index2',
       name:'index2',
       component: resovle => require(['@/views/index2.vue'], resovle)
+    },
+    {
+      path:'/index3',
+      name:'index3',
+      component: resovle => require(['@/views/index3.vue'], resovle)
     }
   ]
 })
